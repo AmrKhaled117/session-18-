@@ -8,8 +8,8 @@ namespace BANKWITH_FUND
         static void Main(string[] args)
         {
             // Create objects
-            SavingAccount savingAcc = new SavingAccount("SA123", "Ahmed Ali", 5000m, 5m);
-            CurrentAccount currentAcc = new CurrentAccount("CA456", "Mona Hassan", 2000m, 1000m);
+            SavingAccount savingAcc = new SavingAccount("SA123", "Ahmed Mohamed", 6000m, 5m);
+            CurrentAccount currentAcc = new CurrentAccount("CA456", "Ahmed Hassan", 3000m, 2000m);
 
             // Add to list
             List<BankAccount> accounts = new List<BankAccount> { savingAcc, currentAcc };
